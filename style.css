@@ -3,6 +3,16 @@ body{
     font-family: arial, sans-serif;
 }
 
+.fa-flask {
+    color: #9aa0a6;
+    margin-right: 10px; 
+}
+
+.fa-bars {
+    color: #9aa0a6;
+    margin-left: 10px;
+}
+
 .navbar {
     float: right;
     margin: 20px;
@@ -10,16 +20,16 @@ body{
 
 .nav-item {
     text-decoration: none;
-    color: black;
+    color: #9aa0a6;
     margin-right: 15px;
 }
 
 .nav-item:hover {
-    color: blue;
+    color: gold;
 }
 
 .main {
-    margin-top: 150px;
+    margin-top: 90px;
     text-align: center;
 }
 
@@ -34,6 +44,15 @@ body{
     border: 1px solid #dfe1e5;
     padding-left: 40px;
     padding-right: 40px;
+    outline: none; 
+}
+
+.input-box::placeholder {
+    color: #9aa0a6;
+}
+
+.input-box:hover {
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); 
 }
 
 .search-icon {
@@ -42,10 +61,15 @@ body{
     color: #9aa0a6;
 }
 
-/* 마이크 */
 .mic-icon {
     position: relative;
-    right: 40px;
+    right: 80px;
+    color: #9aa0a6;
+}
+
+.camera-icon {
+    position: relative;
+    right: 65px; 
     color: #9aa0a6;
 }
 
@@ -82,7 +106,7 @@ body{
 }
 
 .language:hover {
-    color: blue;
+    color: gold;
 }
 
 .footer {
@@ -116,5 +140,5 @@ body{
 }
 
 .second-line a:hover {
-    color: blue;
+    color: gold;
 }
